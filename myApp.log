@@ -1,0 +1,287 @@
+2020-08-01 19:11:02.604  INFO 10552 --- [main] c.s.e.integrationTests.ApplicationTest   : Starting ApplicationTest on DESKTOP-BIDKKEF with PID 10552 (started by slotv in C:\Users\slotv\IdeaProjects\TeamWork\sprint15-unit-testing)
+2020-08-01 19:11:02.607  INFO 10552 --- [main] c.s.e.integrationTests.ApplicationTest   : No active profile set, falling back to default profiles: default
+2020-08-01 19:11:03.787  INFO 10552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-01 19:11:03.902  INFO 10552 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105ms. Found 5 JPA repository interfaces.
+2020-08-01 19:11:04.809  INFO 10552 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:11:04.829  INFO 10552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-01 19:11:05.131  INFO 10552 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-01 19:11:05.248  INFO 10552 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-01 19:11:05.412  INFO 10552 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-01 19:11:05.736  INFO 10552 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-01 19:11:05.749  WARN 10552 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-01 19:11:06.216  INFO 10552 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-01 19:11:06.316  INFO 10552 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-01 19:11:06.694  INFO 10552 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-01 19:11:06.818  INFO 10552 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-01 19:11:07.832  INFO 10552 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-01 19:11:07.841  INFO 10552 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:11:08.365  INFO 10552 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-01 19:11:08.375  INFO 10552 --- [main] c.s.e.integrationTests.ApplicationTest   : Started ApplicationTest in 6.336 seconds (JVM running for 8.765)
+2020-08-01 19:11:09.351  INFO 10552 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:11:09.353  INFO 10552 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-01 19:11:09.355  WARN 10552 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:11:09.355 ERROR 10552 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:11:09.357  WARN 10552 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:11:09.358 ERROR 10552 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:11:09.358  WARN 10552 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-01 19:11:09.358  INFO 10552 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:11:09.359  INFO 10552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-01 19:11:09.364  INFO 10552 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-01 19:14:52.531  INFO 7812 --- [main] c.s.e.integrationTests.ApplicationTest   : Starting ApplicationTest on DESKTOP-BIDKKEF with PID 7812 (started by slotv in C:\Users\slotv\IdeaProjects\TeamWork\sprint15-unit-testing)
+2020-08-01 19:14:52.534  INFO 7812 --- [main] c.s.e.integrationTests.ApplicationTest   : No active profile set, falling back to default profiles: default
+2020-08-01 19:14:53.742  INFO 7812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-01 19:14:53.886  INFO 7812 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129ms. Found 5 JPA repository interfaces.
+2020-08-01 19:14:54.725  INFO 7812 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:14:54.742  INFO 7812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-01 19:14:55.020  INFO 7812 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-01 19:14:55.135  INFO 7812 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-01 19:14:55.295  INFO 7812 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-01 19:14:55.595  INFO 7812 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-01 19:14:55.657  WARN 7812 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-01 19:14:56.048  INFO 7812 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-01 19:14:56.259  INFO 7812 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-01 19:14:56.695  INFO 7812 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-01 19:14:56.848  INFO 7812 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-01 19:14:57.792  INFO 7812 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-01 19:14:57.802  INFO 7812 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:14:58.310  INFO 7812 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-01 19:14:58.321  INFO 7812 --- [main] c.s.e.integrationTests.ApplicationTest   : Started ApplicationTest in 6.572 seconds (JVM running for 8.755)
+2020-08-01 19:14:58.910  WARN 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:14:58.911 ERROR 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:14:58.912  INFO 7812 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:14:59.053  WARN 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:14:59.053 ERROR 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:14:59.054  INFO 7812 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:14:59.192  WARN 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:14:59.192 ERROR 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:14:59.193  INFO 7812 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:14:59.326  WARN 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:14:59.326 ERROR 7812 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:14:59.326  INFO 7812 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:14:59.349  INFO 7812 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:14:59.350  INFO 7812 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-01 19:14:59.351  WARN 7812 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:14:59.352 ERROR 7812 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:14:59.352  WARN 7812 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:14:59.352 ERROR 7812 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:14:59.353  WARN 7812 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-01 19:14:59.353  INFO 7812 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:14:59.354  INFO 7812 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-01 19:14:59.359  INFO 7812 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-01 19:16:27.196  INFO 14060 --- [main] c.s.e.integrationTests.ApplicationTest   : Starting ApplicationTest on DESKTOP-BIDKKEF with PID 14060 (started by slotv in C:\Users\slotv\IdeaProjects\TeamWork\sprint15-unit-testing)
+2020-08-01 19:16:27.201  INFO 14060 --- [main] c.s.e.integrationTests.ApplicationTest   : No active profile set, falling back to default profiles: default
+2020-08-01 19:16:28.270  INFO 14060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-01 19:16:28.409  INFO 14060 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 5 JPA repository interfaces.
+2020-08-01 19:16:29.274  INFO 14060 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:16:29.291  INFO 14060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-01 19:16:29.558  INFO 14060 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-01 19:16:29.666  INFO 14060 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-01 19:16:29.828  INFO 14060 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-01 19:16:30.136  INFO 14060 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-01 19:16:30.178  WARN 14060 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-01 19:16:30.598  INFO 14060 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-01 19:16:30.768  INFO 14060 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-01 19:16:31.172  INFO 14060 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-01 19:16:31.289  INFO 14060 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-01 19:16:32.130  INFO 14060 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-01 19:16:32.141  INFO 14060 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:16:32.650  INFO 14060 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-01 19:16:32.661  INFO 14060 --- [main] c.s.e.integrationTests.ApplicationTest   : Started ApplicationTest in 6.066 seconds (JVM running for 8.3)
+2020-08-01 19:16:33.240  WARN 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:16:33.241 ERROR 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:16:33.243  INFO 14060 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:16:33.399  WARN 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:16:33.400 ERROR 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:16:33.401  INFO 14060 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:16:33.529  WARN 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:16:33.530 ERROR 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:16:33.530  INFO 14060 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:16:33.655  WARN 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:16:33.655 ERROR 14060 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:16:33.655  INFO 14060 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:16:33.679  INFO 14060 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:16:33.680  INFO 14060 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-01 19:16:33.682  WARN 14060 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:16:33.682 ERROR 14060 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:16:33.682  WARN 14060 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:16:33.683 ERROR 14060 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:16:33.683  WARN 14060 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-01 19:16:33.683  INFO 14060 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:16:33.684  INFO 14060 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-01 19:16:33.689  INFO 14060 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-01 19:17:42.181  INFO 13676 --- [main] c.s.e.integrationTests.ApplicationTest   : Starting ApplicationTest on DESKTOP-BIDKKEF with PID 13676 (started by slotv in C:\Users\slotv\IdeaProjects\TeamWork\sprint15-unit-testing)
+2020-08-01 19:17:42.184  INFO 13676 --- [main] c.s.e.integrationTests.ApplicationTest   : No active profile set, falling back to default profiles: default
+2020-08-01 19:17:43.501  INFO 13676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-01 19:17:43.623  INFO 13676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 111ms. Found 5 JPA repository interfaces.
+2020-08-01 19:17:44.504  INFO 13676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:17:44.526  INFO 13676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-01 19:17:44.828  INFO 13676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-01 19:17:44.931  INFO 13676 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-01 19:17:45.098  INFO 13676 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-01 19:17:45.453  INFO 13676 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-01 19:17:45.531  WARN 13676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-01 19:17:45.921  INFO 13676 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-01 19:17:46.178  INFO 13676 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-01 19:17:46.543  INFO 13676 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-01 19:17:46.692  INFO 13676 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-01 19:17:47.684  INFO 13676 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-01 19:17:47.698  INFO 13676 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:17:48.276  INFO 13676 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-01 19:17:48.286  INFO 13676 --- [main] c.s.e.integrationTests.ApplicationTest   : Started ApplicationTest in 6.857 seconds (JVM running for 9.295)
+2020-08-01 19:17:48.916  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:17:48.917 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:17:48.918  INFO 13676 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:17:48.967  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-08-01 19:17:48.968 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение уникального индекса или первичного ключа: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"
+Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (id, email, first_name, last_name, password, role) values (null, ?, ?, ?, ?, ?) [23505-200]
+2020-08-01 19:17:48.976  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:17:48.977 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:17:48.977  INFO 13676 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:17:49.006  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-08-01 19:17:49.006 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение уникального индекса или первичного ключа: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"
+Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (id, email, first_name, last_name, password, role) values (null, ?, ?, ?, ?, ?) [23505-200]
+2020-08-01 19:17:49.021  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:17:49.022 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:17:49.023  INFO 13676 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:17:49.047  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-08-01 19:17:49.048 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение уникального индекса или первичного ключа: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"
+Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (id, email, first_name, last_name, password, role) values (null, ?, ?, ?, ?, ?) [23505-200]
+2020-08-01 19:17:49.059  WARN 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:17:49.059 ERROR 13676 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:17:49.060  INFO 13676 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:17:49.087  INFO 13676 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:17:49.089  INFO 13676 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-01 19:17:49.091  WARN 13676 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:17:49.091 ERROR 13676 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:17:49.092  WARN 13676 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:17:49.092 ERROR 13676 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:17:49.092  WARN 13676 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-01 19:17:49.093  INFO 13676 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:17:49.094  INFO 13676 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-01 19:17:49.099  INFO 13676 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-01 19:20:31.655  INFO 18620 --- [main] c.s.e.integrationTests.ApplicationTest   : Starting ApplicationTest on DESKTOP-BIDKKEF with PID 18620 (started by slotv in C:\Users\slotv\IdeaProjects\TeamWork\sprint15-unit-testing)
+2020-08-01 19:20:31.657  INFO 18620 --- [main] c.s.e.integrationTests.ApplicationTest   : No active profile set, falling back to default profiles: default
+2020-08-01 19:20:32.698  INFO 18620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-01 19:20:32.822  INFO 18620 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 112ms. Found 5 JPA repository interfaces.
+2020-08-01 19:20:33.667  INFO 18620 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:20:33.687  INFO 18620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-01 19:20:33.944  INFO 18620 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-01 19:20:34.041  INFO 18620 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-01 19:20:34.181  INFO 18620 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-01 19:20:34.490  INFO 18620 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-01 19:20:34.602  WARN 18620 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-01 19:20:34.943  INFO 18620 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-01 19:20:35.238  INFO 18620 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-01 19:20:35.663  INFO 18620 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-01 19:20:35.791  INFO 18620 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-01 19:20:36.569  INFO 18620 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-01 19:20:36.577  INFO 18620 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:20:37.071  INFO 18620 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-01 19:20:37.080  INFO 18620 --- [main] c.s.e.integrationTests.ApplicationTest   : Started ApplicationTest in 6.024 seconds (JVM running for 8.188)
+2020-08-01 19:20:37.646  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:20:37.647 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:20:37.649  INFO 18620 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:20:37.693  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-08-01 19:20:37.694 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение уникального индекса или первичного ключа: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"
+Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (id, email, first_name, last_name, password, role) values (null, ?, ?, ?, ?, ?) [23505-200]
+2020-08-01 19:20:37.700  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:20:37.700 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:20:37.701  INFO 18620 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:20:37.725  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-08-01 19:20:37.726 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение уникального индекса или первичного ключа: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"
+Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (id, email, first_name, last_name, password, role) values (null, ?, ?, ?, ?, ?) [23505-200]
+2020-08-01 19:20:37.732  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:20:37.733 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:20:37.733  INFO 18620 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:20:37.756  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2020-08-01 19:20:37.756 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение уникального индекса или первичного ключа: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"
+Unique index or primary key violation: "PUBLIC.UK_6DOTKOTT2KJSP8VW4D0M25FB7_INDEX_4 ON PUBLIC.USERS(EMAIL) VALUES 1"; SQL statement:
+insert into users (id, email, first_name, last_name, password, role) values (null, ?, ?, ?, ?, ?) [23505-200]
+2020-08-01 19:20:37.761  WARN 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 19:20:37.761 ERROR 18620 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 19:20:37.761  INFO 18620 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 19:20:37.783  INFO 18620 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 19:20:37.784  INFO 18620 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-08-01 19:20:37.786  WARN 18620 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:20:37.786 ERROR 18620 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:20:37.786  WARN 18620 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 90121, SQLState: 90121
+2020-08-01 19:20:37.786 ERROR 18620 --- [SpringContextShutdownHook] o.h.engine.jdbc.spi.SqlExceptionHelper   : База данных уже закрыта (чтобы отключить автоматическое закрытие базы данных при останове JVM, добавьте ";DB_CLOSE_ON_EXIT=FALSE" в URL)
+Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-08-01 19:20:37.786  WARN 18620 --- [SpringContextShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'entityManagerFactory': org.hibernate.exception.JDBCConnectionException: Unable to release JDBC Connection used for DDL execution
+2020-08-01 19:20:37.787  INFO 18620 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 19:20:37.788  INFO 18620 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-01 19:20:37.792  INFO 18620 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-08-01 20:04:01.833  INFO 10108 --- [main] c.s.e.integrationTests.ApplicationTest   : Starting ApplicationTest on DESKTOP-BIDKKEF with PID 10108 (started by slotv in C:\Users\slotv\IdeaProjects\TeamWork\sprint15-unit-testing)
+2020-08-01 20:04:01.836  INFO 10108 --- [main] c.s.e.integrationTests.ApplicationTest   : No active profile set, falling back to default profiles: default
+2020-08-01 20:04:03.056  INFO 10108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-01 20:04:03.177  INFO 10108 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 5 JPA repository interfaces.
+2020-08-01 20:04:03.988  INFO 10108 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-01 20:04:04.081  INFO 10108 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-01 20:04:04.251  INFO 10108 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-08-01 20:04:04.649  INFO 10108 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-01 20:04:04.677  WARN 10108 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-01 20:04:05.129  INFO 10108 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-01 20:04:05.310  INFO 10108 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-01 20:04:05.507  INFO 10108 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-01 20:04:05.552  INFO 10108 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-08-01 20:04:05.717  INFO 10108 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-08-01 20:04:05.853  INFO 10108 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-01 20:04:07.042  INFO 10108 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-01 20:04:07.056  INFO 10108 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 20:04:07.568  INFO 10108 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-01 20:04:07.579  INFO 10108 --- [main] c.s.e.integrationTests.ApplicationTest   : Started ApplicationTest in 6.446 seconds (JVM running for 8.785)
+2020-08-01 20:04:08.169  WARN 10108 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23503, SQLState: 23503
+2020-08-01 20:04:08.170 ERROR 10108 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Нарушение ссылочной целостности: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"
+Referential integrity constraint violation: "FKNHAAD5LCOLQ6RDII9RMY7WJ10: PUBLIC.MARATHON_USER FOREIGN KEY(USER_ID) REFERENCES PUBLIC.USERS(ID) (1)"; SQL statement:
+delete from users where id=? [23503-200]
+2020-08-01 20:04:08.171  INFO 10108 --- [main] o.h.e.j.b.internal.AbstractBatchImpl     : HHH000010: On release of batch it still contained JDBC statements
+2020-08-01 20:04:08.213  INFO 10108 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-01 20:04:08.216  INFO 10108 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-01 20:04:08.217  INFO 10108 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-01 20:04:08.224  INFO 10108 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
